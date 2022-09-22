@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_menu{
+    box-shadow: 0 5px 20px #eee;
+    padding: 10px 0;
+}
+.header_menu li a{
+    color: #3A78BC;
+    transition: all .3s linear;
+    font-size: 14px;
+}
+.header_menu li a:hover{
+    color: #FF006D;
+}
+.first_color{
+    color: #FF006D !important;
+}
+.second_color{
+    color: #3A78BC !important;
+}
+.black{
+    color: #000;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.header_h1{
+    position: relative;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.header_h1::before{
+    content: '';
+    position: absolute;
+    width: 86px;
+    height: 49px;
+    background: url('img/delivery-icon.svg');
+    top: -15px;
+    left: -75px;
+}
+.header_btn{
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: #FF006D;
+    border:none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .2s linear;
+}
+.header_btn:hover{
+    box-shadow: 0 10px 25px #ff006f48;
+}
+.telegram{
+    color: #37AFE2;
+}
