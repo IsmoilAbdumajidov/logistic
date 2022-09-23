@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl carusel css -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+
 
 </head>
 
@@ -27,7 +30,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
                         <a class="navbar-brand fw-bold" href="index.html">Logistic</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -35,32 +38,30 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
                                 <div class="d-block d-lg-flex align-items-center">
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link " aria-current="page" href="#">About</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link" href="#">Contact</a>
                                     </li>
                                 </div>
                                 <div class="d-block d-lg-flex align-items-center">
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link " aria-current="page" href="#">About</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link" href="#">Contact</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link fs-5 first_color" href="tel:+998335990075">+99833 599 00
                                             75</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item menu_li">
                                         <a class="nav-link" href=""><i
                                                 class="fa-brands fa-telegram fa-2x telegram"></i></a>
                                     </li>
-
                                 </div>
                             </ul>
-
                         </div>
                     </div>
                 </nav>
@@ -68,33 +69,130 @@
             <div class="header_content">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-12 col-lg-6  pl-50 pt-5 pt-lg-0">
-                            <h1 class="header_h1 display-4 fw-semibold second_color">Доставка из США <span
+                        <div class="col-12  col-md-6 col-lg-6  pl-50 pt-5 pt-lg-0">
+                            <h1 class="header_h1 fw-semibold second_color">Доставка из США <span
                                     class="first_color d-block mt-3 fw-bold">от $11.99</span></h1>
                             <p class="fs-14 black fw-semibold pe-5 me-5 py-4">Помогаем с покупками в Америке и привозим
                                 их к вам домой быстро и недорого.</p>
                             <button class="header_btn mt-3">Получить адрес в США</button>
                         </div>
-                        <div class="col-12 col-lg-6   gif_col pt-3 mt-3">
-                            <img class="img-fluid gif d-none d-lg-block" src="img/71216-delivery-guy.gif" alt="">
+                        <div class="col-12 col-md-6 col-lg-6   gif_col ps-5 ps-md-0 pt-3 mt-3">
+                            <img class="img-fluid gif" src="img/71216-delivery-guy.gif" alt="">
                             <!-- <video autoplay src="img/71216-delivery-guy.mp4"></video> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="aboutUs"></section>
-        <section class="contact"></section>
-        <section class="guarantees"></section>
+        <section class="aboutUs mt-100">
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item carusel_item_1">
+                        <div class="row px-3 py-5">
+                            <div class="col-12 col-lg-5">
+                                <img class="img-fluid d-none d-lg-block" src="img/us-buyers.svg" alt="">
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                                <p class="my-5">
+                                    С нами вы сможете продавать свои товары на Amazon, eBay, Etsy и в других
+                                    американских магазинах с
+                                    доставкой за 2–3 дня. Просто перешлите ваши товары на наш склад в Делавэре, а мы
+                                    будем
+                                    отправлять их вашим покупателям.
+                                </p>
+                                <button class="aboutUs_btn mt-3">Получить адрес в США</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carusel_item_2">
+                        <div class="row px-3 py-5">
+                            <div class="col-12 col-lg-5">
+                                <img class="img-fluid d-none d-lg-block" src="img/iherb.png" alt="">
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                                <p class="my-5">
+                                    С нами вы сможете продавать свои товары на Amazon, eBay, Etsy и в других
+                                    американских магазинах с
+                                    доставкой за 2–3 дня. Просто перешлите ваши товары на наш склад в Делавэре, а мы
+                                    будем
+                                    отправлять их вашим покупателям.
+                                </p>
+                                <button class="aboutUs_btn mt-3">Получить адрес в США</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="object mt-100">
+            <div class="container-lg container">
+                <h3 class="text-center">МЫ СОВЕРШИМ ПОКУПКУ <br> ОТ ВАШЕГО ИМЕНИ</h1>
+
+                    <div class="row object_row">
+                        <img class="vector d-none d-lg-block" src="img/Vector_141_4.svg" alt="">
+                        <div class="col-12 col-sm-6 text-center text-lg-start col-lg-3 pt-lg-3 border-bottom">
+                            <img class="img-fluid object_img mt-5" src="img/corporate-website-rg.svg" alt="">
+                            <p class="fw-bold mt-3">Вы отправляете <br> ссылку на нужный <br> товар</p>
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-lg-start col-lg-3  border-bottom">
+                            <p class="fw-bold mt-3">
+                                Мы <br> совершаем <br> покупку
+                            </p>
+                            <img class="img-fluid object_img" src="img/_2.svg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-lg-start col-lg-3 pt-lg-5 border-bottom">
+                            <img class="img-fluid mx-lg-5 mt-lg-5 object_img" src="img/Frame_24_6.svg" alt="">
+                            <p class="fw-bold mt-3">Получаем вашу <br> покупку в Армении</p>
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-lg-start col-lg-3 border-bottom">
+                            <p class="fw-bold ">Отправляем в Россию</p>
+                            <img class="img-fluid object_img" src="img/Group_12.svg" alt="">
+                            <img class="img-fluid object_img" src="img/Frame_22_6.svg" alt="">
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="animate_num mt-100 text-white">
+            <div class="container animate_num_cont">
+                <div class="row align-items-center px-3 py-5 p-lg-5">
+                    <div class="col-12 col-lg-7 p-lg-5">
+                        <div class="row ">
+                            <div class="col-4 text-center">
+                                <h2>307,817</h2>
+                                <p>отправлено</p>
+                            </div>
+                            <div class="col-4 text-center border-end border-start">
+                                <h2>20,899</h2>
+                                <p>отзывов</p>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h2>12 лет</h2>
+                                <p>на рынке</p>
+                            </div>
+                            <button class="aboutUs_btn mt-4">Получить адрес в США</button>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
         <section class="personaArea"></section>
         <section class="footer"></section>
     </section>
 
 
-
+    <script src="jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="carusel.js"></script>
+
+
+
+
 </body>
 
 </html>
