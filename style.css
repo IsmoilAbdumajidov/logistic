@@ -320,4 +320,9 @@
     .level_four_col h1{
         font-size: 60px;
     }
+    .logist_type{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
