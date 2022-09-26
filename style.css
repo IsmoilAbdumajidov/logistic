@@ -258,6 +258,13 @@
     border-radius: 20px;
     box-shadow: 0 0 60px 0 #d5eaf1;
 }
+.card_header{
+    box-shadow: 0 0 60px 0 #d5eaf1;
+    border-radius: 30px;
+}
+.footer p{
+    line-height: 35px;
+}
 @media screen and (max-width:992px) {
     .menu_li{
         border-bottom: 1px solid #f5f5f5;
